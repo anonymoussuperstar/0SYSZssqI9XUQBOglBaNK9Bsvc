@@ -7,4 +7,4 @@
 
 #Write-Host "FYI: Top 5processes using maximum PM of your computer:" -BackgroundColor DarkBlue -ForegroundColor red
 #Get-Process | Sort-Object PM -Descending | Select-Object -First 5
-C:\Users\SupremeJB\Desktop\abc.txt" -Destination "C:\Users\SupremeJB\Desktop\abc
+Copy-Item "C:\Users\SupremeJB\Desktop\abc.txt" -Destination "C:\Users\SupremeJB\Desktop\abc"
